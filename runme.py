@@ -32,12 +32,6 @@ def is_docker_daemon_running():
     return False
 
 
-def get_first_word(sentence):
-    all_words = sentence.split()
-    return all_words[0]
-
-
-
 def code_exists(folder):
     return os.path.exists(root_dir + '/' + folder)
 

@@ -20,7 +20,7 @@ services:
   react_frontend: 
     container_name: react_frontend 
     build:
-      context: ./portfolio-frontend-react 
+      context: ./warehouse-frontend 
       dockerfile: Dockerfile
       args: 
         REACT_APP_API_BASE_URL: http://localhost:8080
@@ -30,7 +30,7 @@ services:
   java_backend:
     image: 'docker-spring-boot-postgres:1.0.0'
     build:
-      context: ./portfolio-backend-java
+      context: ./warehouse-backend
       dockerfile: Dockerfile
     container_name: java_backend
     ports:
