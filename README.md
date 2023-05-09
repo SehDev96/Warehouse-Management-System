@@ -5,8 +5,8 @@ This repo contains script and docker files to start up the application
 
 This is a repository for warehouse management system web application. This warehouse management systems consists of three types of users which are Admin, Manager and Operator. Users will be able to use features like product management, warehouse management, user management and transaction management depending upon the role of the user. 
 
-Backend Code: 
-Frontend Code: 
+Backend Code: https://github.com/SehDev96/warehouse-backend.git
+Frontend Code: https://github.com/SehDev96/warehouse-frontend.git
 
 ---
 
